@@ -113,8 +113,8 @@
     position: absolute;
     top: 192px;
     left: 725px;
-    width: 182px;
-    height: 392px;
+    width: 192px;
+    height: 400px;
 }
 .imgHaltur {
     position: absolute;
@@ -122,6 +122,15 @@
     left: 489px;
     width: 501px;
     height: 73px;
+}
+.Save {
+    position: absolute;
+    top: 182px;
+    left: 50px;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    color:rgb(147, 147, 147);
 }
 body {background: rgb(20, 20, 20);
 color: #000000;}
