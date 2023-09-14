@@ -102,5 +102,26 @@
     top: 192px;
     left: 26px;
 }
+.imgTel1 {
+    position: absolute;
+    top: 192px;
+    left: 570px;
+    width: 182px;
+    height: 392px;
+}
+.imgTel2 {
+    position: absolute;
+    top: 192px;
+    left: 725px;
+    width: 182px;
+    height: 392px;
+}
+.imgHaltur {
+    position: absolute;
+    top: 86px;
+    left: 489px;
+    width: 501px;
+    height: 73px;
+}
 body {background: rgb(20, 20, 20);
 color: #000000;}
