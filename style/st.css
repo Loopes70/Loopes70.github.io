@@ -34,7 +34,7 @@ body {
 }
 
 .divEnd {
-    flex: 1 1 auto;
+    /* flex: 1 1 auto; */
     display: flex;
     align-items: flex-start;
     gap: 8px;
@@ -49,4 +49,15 @@ body {
 .btn-user, .btn-repository {
     height: 32px;
     padding: 0;
+}
+.search {
+    height: max-content;
+    padding: 0 0;
+    border: 0;
+}
+
+.btn-search {
+    width: max-content;
+    padding: 0 0;
+
 }
