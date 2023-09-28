@@ -21,10 +21,25 @@ body {
 .top_panel > * {
     align-self: center;
 }
-.btn-menu {
+.btn-menu1 {
+    height: 32px;
+    width: 32px;
+    background-color: #000000;
+    border-radius: 5px;
+    padding: 0;
+    border: 1px solid #30363D;
+}
+.btn-menu1 :hover {
+    outline-color: white;
+    outline-style:solid;
+
+}
+.btn-menu2 {
     height: 32px;
     width: 32px;
     border-radius: 5px;
+    padding: 0;
+    border: 0;
 }
 .divStart {
     flex: 1 1 auto;
@@ -59,5 +74,15 @@ body {
 .btn-search {
     width: max-content;
     padding: 0 0;
-
 }
+.img-cat {
+    width: 32px;
+    vertical-align: middle;
+
+    }
+.img-menu {
+    width: 24px;
+    /* margin: 3px auto; */
+    vertical-align: middle;
+
+}   
