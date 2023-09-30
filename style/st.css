@@ -27,11 +27,15 @@ body {
     background-color: #000000;
     border-radius: 5px;
     padding: 0;
-    border: 1px solid #30363D;
+    border: 0.25px solid #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.btn-menu1 :hover {
-    outline-color: white;
-    outline-style:solid;
+.btn-menu1:hover {
+
+    border: 1px solid #81243b;
+
 
 }
 .btn-menu2 {
@@ -77,12 +81,7 @@ body {
 }
 .img-cat {
     width: 32px;
-    vertical-align: middle;
-
     }
 .img-menu {
-    width: 24px;
-    /* margin: 3px auto; */
-    vertical-align: middle;
-
+    width: 20px;
 }   
