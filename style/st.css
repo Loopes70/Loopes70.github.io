@@ -14,7 +14,7 @@ body {
     background: #000000;
     height: 56px;
     gap: 12px;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 16px 16px 8px;
     align-items: flex-start;
 }
@@ -24,7 +24,7 @@ body {
 .btn-menu1 {
     height: 32px;
     width: 32px;
-    background-color: #000000;
+    background-color: #4d3030;
     border-radius: 5px;
     padding: 0;
     border: 0.25px solid #ffffff;
@@ -32,11 +32,15 @@ body {
     justify-content: center;
     align-items: center;
 }
+
 .btn-menu1:hover {
 
     border: 1px solid #81243b;
+}
 
-
+.btn-menu1 :hover {
+    outline-color: white;
+    outline-style:solid;
 }
 .btn-menu2 {
     height: 32px;
@@ -46,15 +50,14 @@ body {
     border: 0;
 }
 .divStart {
-    flex: 1 1 auto;
     display: flex;
     align-items: flex-start;
     gap: 8px;
 }
 
 .divEnd {
-    /* flex: 1 1 auto; */
     display: flex;
+    width: 32px;
     align-items: flex-start;
     gap: 8px;
 }
@@ -69,14 +72,9 @@ body {
     height: 32px;
     padding: 0;
 }
-.search {
-    height: max-content;
-    padding: 0 0;
-    border: 0;
-}
 
 .btn-search {
-    width: max-content;
+    height: 32px;
     padding: 0 0;
 }
 .img-cat {
