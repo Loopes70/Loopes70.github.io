@@ -73,7 +73,7 @@ body {
      transform: rotate(45deg) rotateX(-385deg) rotateY(385deg);
     }
    }
-
+/* просто коммит */
    @keyframes fade {
     0% { opacity: 0; }
     11.11% { opacity: 1; }
